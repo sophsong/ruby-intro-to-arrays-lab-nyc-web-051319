@@ -1,37 +1,32 @@
-# 'use strict';
+def instantiate_new_array
+    []
+end
 
-function createArray() {
-  return ["snickers", "hundred grand", "kitkat", "skittles"];
-}
+ def array_with_two_elements
+    new_array = ["x", "y"]
+    new_array
+end
 
-function addElementToArray(array) {
-  array.push("A Christmas Story");
-  return array
-}
+ def first_element(array)
+    array[0]
+end
 
-function accessElementFromArray(statesArray) {
-  return statesArray[2];
-}
+ def third_element(array)
+    array[2]
+end
 
-function replaceElementInArray(namesArray) {
-  return namesArray[1] = "Carter";
-  
-}
+ def last_element(array)
+    array.last
+end
 
-function removeElementFromArray(dishesArray) {
-  dishesArray.splice(2, 2, "Roast Chicken");
-  return dishesArray;
-}
+ def first_element_with_array_methods(array)
+    array.first
+end
 
-function iterateArray(numbers) {
-  var newNums = [];
-  numbers.forEach(function(number) {
-    newNews.push(number + 5);
-  });
-  return newNews;
-}
-  })
-}
+ def last_element_with_array_methods(array)
+    array.last
+end
 
-
-}
+ def length_of_array(array)
+    array.length
+end
